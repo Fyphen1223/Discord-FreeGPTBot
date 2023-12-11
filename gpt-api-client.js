@@ -22,7 +22,7 @@ async function generate(prompt, model) {
 			},
 			data: {
 				prompt: prompt.slice(-20000),
-				model: model || "gpt-4-32k",
+				model: model || 1,
 				type: "json",
 			},
 		});
